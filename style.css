@@ -1,0 +1,175 @@
+@charset "UTF-8"
+2 {
+}
+* {
+    box-sizing : border-box;
+}
+@font-face {
+    font-family: Android;
+    src: url(fontes/idroid.otf);}
+
+@font-face {
+    font-family: texto;
+    src: url(android-site.txt);
+    
+    
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+body {
+    background-color: #3ff38d6e;
+    margin: 0px;
+}
+header {
+    background-image: linear-gradient(to bottom, #298d56,#0f3620);  
+color: white;
+text-align: center;
+box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.692);
+margin-top: 0px;
+padding-top: 20px;
+}
+h1 {
+    font-family: 'Satisfy';
+    font-weight: bold;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.692);
+    margin-top: 0px;
+}
+h2 {
+    font-family: "texto";
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.692);
+}
+
+.menu {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-shadow: 0px 7px 07px rgba(0, 0, 0, 0.692);
+}
+.menu > a {
+    text-decoration: none;
+                    color: white;
+                    font-weight:lighter;
+                    padding: 10px;
+                    transition-duration: .5s;
+}
+.menu > a:hover {
+    text-decoration: underline;
+    background-color: #3ff38d;
+
+}
+
+.mascote {
+    font-family: "android";
+    color: #1A5E38;
+}
+main p {
+    font-family: "texto";
+    text-align: justify;
+    line-height: normal;
+    margin: 15px 0px;
+    text-indent: 15px;
+    line-height: 1.5em;
+    padding-left: 10;
+}
+ main strong {
+    color: #1A5E38;
+    font-weight: bold;
+    
+    padding: 2px 6px;
+ }
+main {
+    background-color: white;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    padding: 05px 10px;
+    max-width: 800px;
+    min-width: 320px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.382);
+}
+.gradiente {
+    font-family: "android";
+    text-align: left;
+    background-image: linear-gradient(to right,  rgba(255, 255, 255, 0.487), #25874f);
+    color: #000000;
+    font-weight: lighter;
+}
+img {
+    width: 100%;
+}
+.centro {
+    
+    max-width: 100%;
+    height: 200px;
+    width: 315px;
+    display: block;
+     margin: 0px auto;
+   }
+
+   .video {
+    max-width: 100%;
+    background-color: #207144;
+    border-radius: 5px 5px ;
+    margin-bottom: 0.4;
+    display: block;
+     margin: auto;
+    text-align: center;
+    position: relative;
+    padding-bottom:  56.5%;
+    
+   }
+   .video > iframe {
+    position: absolute;
+    top: 5% ;
+    left: 5% ;
+    width: 90%;
+    height: 90%;
+   }
+
+   footer {
+    background-color: #207144;
+    border-radius: 5px 5px ;
+    color: white;
+    text-align: center;
+    font-family: "texto";
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.692);
+    margin-top: 0.5cm;
+   }
+   .mais {
+    background-color: #1A5E38;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 0px, 5px;
+    margin-bottom: 0px;
+   }
+   li {
+    list-style-type: none;
+    text-align: justify;
+    display: list-item;
+    text-decoration: double;
+    columns: 2;
+   }
+   ul {
+    columns: 2;
+    font-size: 0.9em;
+   }
+
+   .ultima {
+    background-color: #3ff38d6e;
+    border-radius: 0px, 5px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.692);
+    text-align: justify;
+   
+
+   }
+   .android {
+    text-decoration: underline;
+   }
